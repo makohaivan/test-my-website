@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>makaan property</title>
+        <style>
+            body{
+                padding-bottom: 0px;
+                border: 5px;
+                border-style: solid;
+                border-radius: 2px;
+            }
+            .nav-div{
+                display: flex;
+                flex-direction: row;
+                background-color: aquamarine;
+                height: 70px;
+            }
+
+            .left-section{
+                display: flex;
+                flex: 1;
+                align-items: center;
+                font-size: 30px;
+                color: rgb(0, 182, 0);
+                font-weight: bold;
+            }
+
+            .right-section{
+                width: 500px;
+                display: flex;
+                flex-shrink: 0;
+                
+            }
+
+            ul li{
+                color: black;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                float: left;
+                justify-content: space-around;
+                font-size: 15px;
+                font-family: arial;
+                padding: 7px;
+
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            li a:hover{
+                background-color: blue;
+                color: white;
+            }
+
+            .main-content{
+                display: flex;
+                flex-direction: row;
+            }
+            .home-page{
+                width: 300px;
+                background-color: rgb(5, 5, 87);
+            }
+            .house-picture{
+                display: flex;
+                flex: 1;
+                
+            }
+
+            .house{
+               width: 100%; 
+            }
+
+            .home-type{
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+                font-family: verdana;
+            }
+
+            .first-para{
+                font-family: verdana;
+                font-weight: bold;
+                font-size: 20px;
+                color: blue;
+                margin-top: 150px;
+                width: 270px;
+            }
+
+            .second-para{
+                font-family: tahoma;
+                font-size: 13px;
+                color: white;
+                margin-bottom: 80px;
+            }
+
+            button{
+                height: 50px;
+                width: 200px;
+                border-radius: 8px;
+                background-color: aquamarine;
+                fo
+            }
+        </style>
+    </head>
+    <body>
+            <div class="nav-div">
+                <div class="left-section">Makaan</div>
+                <div class="right-section">
+                    <ul class="services-lists">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">PROPERTY</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="home-page">
+                    <p class="first-para">
+                        Find A <span class="home-type">Perfect Home</span>  To Live With Your Family.
+                    </p>
+                    <p class="second-para">We have types of classic and beautiful homes to live in at 
+                        an affordable price. Reach us on our social media platforms
+                        to chat with us.
+                    </p>
+                    <a href="mailto:makohaivan26@gmail.com">Email us</a>
+                    <button>Find Out...</button>
+                </div>
+                <div class="house-picture">
+                    <img class="house" src="house.jpeg" alt="house">
+                </div>
+            </div>
+    </body>
+</html>
